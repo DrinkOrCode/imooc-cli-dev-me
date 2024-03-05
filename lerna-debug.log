@@ -1,20 +1,13 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '8.1.2',
-0 silly argv   '$0': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: 'core'
-0 silly argv }
-1 notice cli v8.1.2
-2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
-3 verbose rootPath D:\LernaNPM\imooc-cli-dev-me
-4 warn ENOREMOTE No git remote found, skipping repository property
-5 error Error: canceled
-5 error     at Interface.<anonymous> (D:\LernaNPM\imooc-cli-dev-me\node_modules\read\lib\read.js:79:15)
-5 error     at Interface.emit (node:events:517:28)
-5 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1132:18)
-5 error     at ReadStream.onkeypress (node:internal/readline/interface:271:20)
-5 error     at ReadStream.emit (node:events:517:28)
-5 error     at emitKeys (node:internal/readline/utils:357:14)
-5 error     at emitKeys.next (<anonymous>)
-5 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
-5 error     at ReadStream.emit (node:events:517:28)
+17 error Error: Command failed with exit code 1: git remote update
+17 error git@github.com: Permission denied (publickey).
+17 error fatal: Could not read from remote repository.
+17 error
+17 error Please make sure you have the correct access rights
+17 error and the repository exists.
+17 error     at makeError (D:\LernaNPM\imooc-cli-dev-me\node_modules\execa\lib\error.js:59:11)
+17 error     at module.exports.sync (D:\LernaNPM\imooc-cli-dev-me\node_modules\execa\index.js:186:17)
+17 error     at Object.execSync (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:142:31)
+17 error     at updateRemote (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:7780:18)
+17 error     at isBehindUpstream (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:7770:3)
+17 error     at VersionCommand.initialize (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:8061:57)
+17 error     at VersionCommand.runCommand (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:1861:36)
