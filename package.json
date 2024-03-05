@@ -1,6 +1,6 @@
 {
   "name": "imooc-cli-dev-me",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "workspaces": [
     "packages/*"
   ],
