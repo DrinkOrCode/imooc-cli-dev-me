@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli-dev-me/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "imooc-cli-dev-me core",
   "author": "DrinkOrCode <zjz970102@gmail.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@imooc-cli-dev-me/utils": "^1.0.2"
+    "@imooc-cli-dev-me/utils": "^1.0.5"
   },
   "gitHead": "793122a1cbfdf997e6231a13c7a73cb1be0ef23e"
 }
