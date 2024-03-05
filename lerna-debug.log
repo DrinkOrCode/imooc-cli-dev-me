@@ -7,12 +7,12 @@
 1 notice cli v8.1.2
 2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
 3 verbose rootPath D:\LernaNPM\imooc-cli-dev-me
-4 verbose session 38d7973c102ee486
+4 verbose session 7672c34f472be954
 5 verbose user-agent lerna/8.1.2/node@v18.18.2+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '8.1.2' }
 7 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
 8 verbose rootPath D:\LernaNPM\imooc-cli-dev-me
-9 info current version 1.0.6
+9 info current version 1.0.7
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -22,8 +22,8 @@
 16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v1.0.6-1-gd9a937e" => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"d9a937e","isDirty":false}
-20 info Looking for changed packages since v1.0.6
+19 silly git-describe.sync "v1.0.7-1-g3dbed01" => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"3dbed01","isDirty":false}
+20 info Looking for changed packages since v1.0.7
 21 silly checking diff packages/core
 22 silly found diff in packages/core/package.json
 23 verbose filtered diff [ 'packages/core/package.json' ]
@@ -32,8 +32,8 @@
 26 verbose filtered diff [ 'packages/utils/package.json' ]
 27 verbose updated @imooc-cli-dev-me/core
 28 verbose updated @imooc-cli-dev-me/utils
-29 verbose git-describe undefined => "v1.0.6-1-gd9a937e"
-30 silly git-describe parsed => {"lastTagName":"v1.0.6","lastVersion":"v1.0.6","refCount":"1","sha":"d9a937e","isDirty":false}
+29 verbose git-describe undefined => "v1.0.7-1-g3dbed01"
+30 silly git-describe parsed => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"1","sha":"3dbed01","isDirty":false}
 31 info execute Skipping releases
 32 silly lifecycle No script for "preversion" in "imooc-cli-dev-me", continuing
 33 silly lifecycle No script for "preversion" in "@imooc-cli-dev-me/utils", continuing
@@ -50,10 +50,10 @@
 41 silly gitAdd   'lerna.json',
 41 silly gitAdd   'package-lock.json'
 41 silly gitAdd ]
-42 silly gitCommit v1.0.7
-43 verbose git [ 'commit', '-m', 'v1.0.7' ]
-44 silly gitTag v1.0.7 git tag %s -m %s
-45 verbose git [ 'tag', 'v1.0.7', '-m', 'v1.0.7' ]
+42 silly gitCommit v1.0.8
+43 verbose git [ 'commit', '-m', 'v1.0.8' ]
+44 silly gitTag v1.0.8 git tag %s -m %s
+45 verbose git [ 'tag', 'v1.0.8', '-m', 'v1.0.8' ]
 46 silly lifecycle No script for "postversion" in "@imooc-cli-dev-me/core", continuing
 47 silly lifecycle No script for "postversion" in "@imooc-cli-dev-me/utils", continuing
 48 silly lifecycle No script for "postversion" in "imooc-cli-dev-me", continuing
@@ -61,7 +61,7 @@
 50 silly gitPush origin master
 51 info publish Publishing packages to npm...
 52 silly getCurrentSHA
-53 verbose getCurrentSHA 804becbb36688814aa7d6cf405a246bf703aad9a
+53 verbose getCurrentSHA b97e8cddfed3446d47aaf6b5c7a99b98842f62cb
 54 silly lifecycle No script for "prepublish" in "imooc-cli-dev-me", continuing
 55 silly lifecycle No script for "prepare" in "imooc-cli-dev-me", continuing
 56 silly lifecycle No script for "prepublishOnly" in "imooc-cli-dev-me", continuing
@@ -82,7 +82,7 @@
 71 verbose packed packages\core
 72 silly lifecycle No script for "postpack" in "imooc-cli-dev-me", continuing
 73 verbose publish @imooc-cli-dev-me/utils
-74 silly FetchError: request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.27.34:443
+74 silly FetchError: request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.0.35:443
 74 silly     at ClientRequest.<anonymous> (D:\LernaNPM\imooc-cli-dev-me\node_modules\minipass-fetch\lib\index.js:130:14)
 74 silly     at ClientRequest.emit (node:events:517:28)
 74 silly     at TLSSocket.socketErrorListener (node:_http_client:501:9)
@@ -90,7 +90,7 @@
 74 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
 74 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
 74 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-74 silly  FetchError: request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.27.34:443
+74 silly  FetchError: request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.0.35:443
 74 silly     at ClientRequest.<anonymous> (D:\LernaNPM\imooc-cli-dev-me\node_modules\minipass-fetch\lib\index.js:130:14)
 74 silly     at ClientRequest.emit (node:events:517:28)
 74 silly     at TLSSocket.socketErrorListener (node:_http_client:501:9)
@@ -101,14 +101,14 @@
 74 silly   code: 'ETIMEDOUT',
 74 silly   errno: 'ETIMEDOUT',
 74 silly   syscall: 'connect',
-74 silly   address: '104.16.27.34',
+74 silly   address: '104.16.0.35',
 74 silly   port: 443,
 74 silly   type: 'system'
 74 silly }
 75 warn notice Package failed to publish: @imooc-cli-dev-me/utils
-76 error ETIMEDOUT request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.27.34:443
+76 error ETIMEDOUT request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.0.35:443
 77 error errno "ETIMEDOUT" is not a valid exit code - exiting with code 1
-78 error FetchError: request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.27.34:443
+78 error FetchError: request to https://registry.npmjs.org/@imooc-cli-dev-me%2futils failed, reason: connect ETIMEDOUT 104.16.0.35:443
 78 error     at ClientRequest.<anonymous> (D:\LernaNPM\imooc-cli-dev-me\node_modules\minipass-fetch\lib\index.js:130:14)
 78 error     at ClientRequest.emit (node:events:517:28)
 78 error     at TLSSocket.socketErrorListener (node:_http_client:501:9)
