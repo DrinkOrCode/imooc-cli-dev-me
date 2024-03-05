@@ -1,6 +1,6 @@
 {
   "name": "@imooc-cli-dev-me/utils",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "imooc-cli-dev-me utils",
   "author": "DrinkOrCode <zjz970102@gmail.com>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Run testing from utils\""
   },
-  "gitHead": "8dffeafbeafc97eb8f712daca82994d8f664f31d"
+  "gitHead": "793122a1cbfdf997e6231a13c7a73cb1be0ef23e"
 }
