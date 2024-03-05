@@ -1,13 +1,8 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error git@github.com: Permission denied (publickey).
-17 error fatal: Could not read from remote repository.
-17 error
-17 error Please make sure you have the correct access rights
-17 error and the repository exists.
-17 error     at makeError (D:\LernaNPM\imooc-cli-dev-me\node_modules\execa\lib\error.js:59:11)
-17 error     at module.exports.sync (D:\LernaNPM\imooc-cli-dev-me\node_modules\execa\index.js:186:17)
-17 error     at Object.execSync (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:142:31)
-17 error     at updateRemote (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:7780:18)
-17 error     at isBehindUpstream (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:7770:3)
-17 error     at VersionCommand.initialize (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:8061:57)
-17 error     at VersionCommand.runCommand (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:1861:36)
+47 error Error: Command failed with exit code 128: git tag v1.0.1 -m v1.0.1
+47 error fatal: tag 'v1.0.1' already exists
+47 error     at makeError (D:\LernaNPM\imooc-cli-dev-me\node_modules\execa\lib\error.js:59:11)
+47 error     at handlePromise (D:\LernaNPM\imooc-cli-dev-me\node_modules\execa\index.js:114:26)
+47 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+47 error     at async VersionCommand.gitCommitAndTagVersion (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:8541:9)
+47 error     at async VersionCommand.commitAndTagUpdates (D:\LernaNPM\imooc-cli-dev-me\node_modules\lerna\dist\index.js:8505:18)
+47 error     at async Promise.all (index 0)
