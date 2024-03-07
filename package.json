@@ -1,5 +1,5 @@
 {
-  "name": "lerna-cli-dev",
+  "name": "lerna-websocket-cli-dev",
   "version": "1.0.7",
   "workspaces": [
     "packages/*"
