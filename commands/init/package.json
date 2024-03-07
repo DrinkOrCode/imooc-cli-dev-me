@@ -1,6 +1,6 @@
 {
   "name": "@lerna-websocket-cli-dev/init",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "lerna-cli-dev init",
   "author": "DrinkOrCode <zjz970102@gmail.com>",
   "homepage": "https://github.com/DrinkOrCode/imooc-cli-dev-me#readme",
