@@ -1,5 +1,5 @@
 {
-  "name": "imooc-cli-dev-me",
+  "name": "lerna-cli-dev",
   "version": "1.0.7",
   "workspaces": [
     "packages/*"
@@ -16,6 +16,8 @@
     "lerna": "^8.1.2"
   },
   "dependencies": {
-    "@imooc-cli/utils": "^1.1.2"
+    "@imooc-cli-dev-me/log": "file:utils/log",
+    "@imooc-cli/utils": "^1.1.2",
+    "npmlog": "^7.0.1"
   }
 }
