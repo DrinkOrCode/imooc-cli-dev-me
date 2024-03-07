@@ -23,9 +23,9 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@lerna-websocket-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@lerna-websocket-cli-dev/init": "file:../../commands/init",
-    "@lerna-websocket-cli-dev/log": "file:../../utils/log",
+    "@lerna-websocket-cli-dev/get-npm-info": "^1.0.10",
+    "@lerna-websocket-cli-dev/init": "^1.0.10",
+    "@lerna-websocket-cli-dev/log": "^1.0.10",
     "colors": "^1.4.0",
     "commander": "^12.0.0",
     "dotenv": "^16.4.5",
@@ -37,5 +37,5 @@
     "semver": "^7.6.0",
     "user-home": "^3.0.0"
   },
-  "gitHead": "b97e8cddfed3446d47aaf6b5c7a99b98842f62cb"
+  "gitHead": "36296edd0f73a260bc5459bf5052a9e636a6e43e"
 }
